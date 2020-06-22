@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef06dfb-ca38-44d1-929a-4905e3960068" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/three-body/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/three-body/moe/sqwatermark/Body.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/three-body/moe/sqwatermark/MathHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/three-body/moe/sqwatermark/Problem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/three-body/moe/sqwatermark/World.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moe/sqwatermark/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moe/sqwatermark/MathHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moe/sqwatermark/Population.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moe/sqwatermark/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moe/sqwatermark/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/three-body.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/three-body.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/大数据.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/实验2020-06-22-151425.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/实验2020-06-22-153105.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实验2020-06-22-155340.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/moe/sqwatermark/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/moe/sqwatermark/Problem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="SQwatermark &lt;sqwatermark@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -124,6 +106,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1592789433824" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1592815086208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1592815086208" />
     <state x="395" y="55" key="DetectedRootsChooserDialog" timestamp="1592788071568">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -132,22 +118,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="323" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1592788781295" />
-    <state width="1237" height="298" key="GridCell.Tab.0.bottom" timestamp="1592812503686">
+    <state width="1237" height="160" key="GridCell.Tab.0.bottom" timestamp="1592815086244">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="298" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592812503686" />
-    <state width="1237" height="298" key="GridCell.Tab.0.center" timestamp="1592812503686">
+    <state width="1237" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592815086244" />
+    <state width="1237" height="160" key="GridCell.Tab.0.center" timestamp="1592815086244">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="298" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592812503686" />
-    <state width="1237" height="298" key="GridCell.Tab.0.left" timestamp="1592812503686">
+    <state width="1237" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592815086244" />
+    <state width="1237" height="160" key="GridCell.Tab.0.left" timestamp="1592815086244">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="298" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592812503686" />
-    <state width="1237" height="298" key="GridCell.Tab.0.right" timestamp="1592812503686">
+    <state width="1237" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592815086244" />
+    <state width="1237" height="160" key="GridCell.Tab.0.right" timestamp="1592815086244">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="298" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592812503686" />
+    <state width="1237" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592815086244" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1592801411728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
