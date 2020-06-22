@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef06dfb-ca38-44d1-929a-4905e3960068" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/实验2020-06-22-155340.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/three-body/moe/sqwatermark/Population.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/three-body/moe/sqwatermark/Population.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/three-body/moe/sqwatermark/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/three-body/moe/sqwatermark/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/moe/sqwatermark/Population.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/moe/sqwatermark/Population.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/moe/sqwatermark/Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/moe/sqwatermark/Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/three-body.log" beforeDir="false" afterPath="$PROJECT_DIR$/three-body.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,20 +99,30 @@
       <option name="presentableId" value="Default" />
       <updated>1592554436780</updated>
     </task>
+    <task id="LOCAL-00001" summary="dca">
+      <created>1592815100298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592815100298</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="dca" />
+    <option name="LAST_COMMIT_MESSAGE" value="dca" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592789433824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1592789433824" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1592815086208">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1592815099255">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1592815086208" />
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1592815099255" />
     <state x="395" y="55" key="DetectedRootsChooserDialog" timestamp="1592788071568">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -118,38 +131,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="323" y="81" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1592788781295" />
-    <state width="1237" height="160" key="GridCell.Tab.0.bottom" timestamp="1592815086244">
+    <state width="1237" height="318" key="GridCell.Tab.0.bottom" timestamp="1592816331026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592815086244" />
-    <state width="1237" height="160" key="GridCell.Tab.0.center" timestamp="1592815086244">
+    <state width="1237" height="318" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592816331026" />
+    <state width="1237" height="318" key="GridCell.Tab.0.center" timestamp="1592816331026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592815086244" />
-    <state width="1237" height="160" key="GridCell.Tab.0.left" timestamp="1592815086244">
+    <state width="1237" height="318" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592816331026" />
+    <state width="1237" height="318" key="GridCell.Tab.0.left" timestamp="1592816331026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592815086244" />
-    <state width="1237" height="160" key="GridCell.Tab.0.right" timestamp="1592815086244">
+    <state width="1237" height="318" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592816331026" />
+    <state width="1237" height="318" key="GridCell.Tab.0.right" timestamp="1592816331026">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592815086244" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1592801411728">
+    <state width="1237" height="318" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592816331026" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1592816249758">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592801411728" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1592801411713">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592816249758" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1592816249758">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1592801411713" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1592801411713">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1592816249758" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1592816249758">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1592801411713" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1592801411713">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1592816249758" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1592816249758">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1592801411713" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1592816249758" />
     <state x="287" y="38" key="NewModule_or_Project.wizard" timestamp="1592788788728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -174,9 +187,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1592789329887" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592805295483">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592816273889">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592805295483" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592816273889" />
   </component>
 </project>

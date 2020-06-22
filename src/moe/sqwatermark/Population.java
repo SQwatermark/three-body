@@ -213,4 +213,13 @@ public class Population extends ArrayList<byte[]> {
         return result;
     }
 
+    public double[] decode(String s) {
+        char[] c = s.toCharArray();
+        byte[] chromosome = new byte[s.length()];
+        for (int i = 0; i < chromosome.length; i++) {
+            chromosome[i] = (byte) (c[i] - 48); //数字char转byte减去48
+        }
+        return decode(chromosome);
+    }
+
 }
