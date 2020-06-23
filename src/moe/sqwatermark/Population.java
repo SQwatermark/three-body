@@ -14,7 +14,7 @@ public class Population extends ArrayList<byte[]> {
     //当前代
     public int generation = 1;
     //参数取值精度
-    private double delta = 0.001;
+    private double delta = 0.0001;
     //定义参数取值范围（二进制数的实际取值范围会更大）
     private double[][] boundaryList = {{-50, 50}, {-50, 50}, {-1, 1}, {-1, 1}, {-50, 50}, {-50, 50}, {-1, 1}, {-1, 1}};
     //染色体交叉率
@@ -162,12 +162,6 @@ public class Population extends ArrayList<byte[]> {
             int indexGene = index % totalEncodeLength;
             int k = this.get(indexChromosome)[indexGene];
             this.get(indexChromosome)[indexGene] = (byte) (k == 0 ? 1 : 0);
-//            Problem.logger.info(indexChromosome + " " + indexGene);
-//            for (byte[] bytes : this) {
-//                String s = Arrays.toString(bytes);
-//                s = s.replace(" ", "");
-//                s = s.replace(",", "");
-//                Problem.logger.info(s);
         }
     }
 
@@ -178,7 +172,7 @@ public class Population extends ArrayList<byte[]> {
     public double[] getFitness() {
         double[] fitness = new double[this.size()];
         for (int i = 0; i < this.size(); i++) {
-            fitness[i] = new World(decode(this.get(i))).getLifetime();
+            fitness[i] = new World(decode(this.get(i)), i).getLifetime();
         }
         double max = 0;
         if (Arrays.stream(fitness).max().isPresent()) max = Arrays.stream(fitness).max().getAsDouble();
@@ -215,6 +209,7 @@ public class Population extends ArrayList<byte[]> {
 
     public double[] decode(String s) {
         char[] c = s.toCharArray();
+        System.out.println(Arrays.toString(c));
         byte[] chromosome = new byte[s.length()];
         for (int i = 0; i < chromosome.length; i++) {
             chromosome[i] = (byte) (c[i] - 48); //数字char转byte减去48

@@ -19,6 +19,8 @@ public class World {
     //当前时刻
     public double time = 0;
 
+    public int index = -1;
+
     /*
     日地月三体，时间步长为0.01的情况下跑了4937年，月球逃逸
     时间步长为0.005的情况下跑了一千万年以上
@@ -31,7 +33,8 @@ public class World {
     public Body body2;
     public Body body3;
 
-    public World(double[] args) {
+    public World(double[] args, int index) {
+        this.index = index;
         //初始参数以body1为参照系，三体质量均为太阳质量，运动固定在xoy平面，则需要确定body2和body3的速度和位置，共8个值
         body1 = new Body(1, 0, 0, 0, 0, 0, 0);
         body2 = new Body(1, args[0], args[1], 0, args[2], args[3], 0);
@@ -103,12 +106,14 @@ public class World {
                 //Problem.logger.info("body3逃逸");
                 return time;
             }
-//            if (time > 1e2 && time < 1e2 + 0.002) System.out.println("已达到100年");
-//            if (time > 1e3 && time < 1e3 + 0.002) System.out.println("已达到1000年");
-//            if (time > 1e4 && time < 1e4 + 0.002) System.out.println("已达到1万年");
-//            if (time > 1e5 && time < 1e5 + 0.002) System.out.println("已达到10万年");
-//            if (time > 1e6 && time < 1e6 + 0.002) System.out.println("已达到100万年");
-//            if (time > 1e7 && time < 1e7 + 0.002) System.out.println("已达到1000万年");
+            if (time > 1e5 && time < 1e5 + 0.002) System.out.println("已达到10万年");
+            if (time > 1e6 && time < 1e6 + 0.002) {
+                Problem.logger.info("已达到100万年" + this.index);
+            }
+            if (time > 1e7 && time < 1e7 + 0.002) {
+                Problem.logger.info("已达到1000万年" + this.index);
+
+            }
         }
     }
 }
