@@ -10,10 +10,7 @@ public class Problem {
 
     public static void main(String[] args) {
         Population population = Population.getNewPopulation(0).evolution(0);
-        //System.out.println(Arrays.toString(population.decode("10100101000011111111010110001011000100110101110110001000100010100110111101101110111001010111110100010011000010001101011000111011110010111101")));
-//        logger.info("每一代的最大适应度为" + population.maxValues.toString());
-//        logger.info("所有代中最大适应度为" + Collections.max(population.maxValues));
-        logger.info(new World(population.decode("01100010011001100000001000111000011101111100010011001000110001000011010010010101100010111110010010010001111111000100101010000001000100000111"), 1).getLifetime());
+        logger.info(Arrays.toString(population.decode("10110011011011010010000100001100000001111101011001010011111010000000011111100111110010111100111101010101000101111101011111010001101100000111")));
     }
 
 }

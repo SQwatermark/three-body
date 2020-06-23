@@ -106,13 +106,13 @@ public class World {
                 //Problem.logger.info("body3逃逸");
                 return time;
             }
-            if (time > 1e5 && time < 1e5 + 0.002) System.out.println("已达到10万年");
-            if (time > 1e6 && time < 1e6 + 0.002) {
-                Problem.logger.info("已达到100万年" + this.index);
+            if (time > 1e5 && time < 1e5 + 0.001) System.out.println("已达到10万年");
+            if (time > 1e6 && time < 1e6 + 0.001) {
+                Problem.logger.info("已达到100万年: " + this.index + "号个体");
             }
-            if (time > 1e7 && time < 1e7 + 0.002) {
-                Problem.logger.info("已达到1000万年" + this.index);
-
+            if (time > 1e7 && time < 1e7 + 0.001) {
+                Problem.logger.info("已达到1000万年: " + this.index + "号个体");
+                return time;
             }
         }
     }
